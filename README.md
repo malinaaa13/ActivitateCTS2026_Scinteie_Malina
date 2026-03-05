@@ -1,1 +1,1 @@
-# ActivitateCTS2026_Sc-nteie_M-lina-
+# ActivitateCTS2026_Scinteie_Malina-
