@@ -9,11 +9,15 @@ public class Program {
 
 	public static void main(String[] args) {
 		List<Aplicant> listaAngajati;
+		Aplicant.setPragPunctaj(85);
 		try {
-			AplicantiReader aplicantiReader = new AngajatiReader();
-			listaAngajati = aplicantiReader.readAplicanti("Seminar2/angajati.txt");
-			for(Aplicant angajat:listaAngajati)
-				System.out.println(angajat.toString());
+			AplicantiReader aplicantiReader = new AngajatiReader("Seminar2/angajati.txt");
+			listaAngajati = aplicantiReader.readAplicanti();
+			for(Aplicant aplicant:listaAngajati) {
+				System.out.println(aplicant.toString());
+				aplicant.afisareVenit();
+				aplicant.afisareStatut();
+			}
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -21,3 +25,5 @@ public class Program {
 	}
 
 }
+
+
