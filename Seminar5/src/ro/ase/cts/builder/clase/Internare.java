@@ -15,23 +15,23 @@ public class Internare {
         this.numePacient = numePacient;
     }
 
-    public void setPatRabatabil(boolean patRabatabil) {
+    protected void setPatRabatabil(boolean patRabatabil) {
         this.patRabatabil = patRabatabil;
     }
 
-    public void setMicDejun(boolean micDejun) {
+    protected void setMicDejun(boolean micDejun) {
         this.micDejun = micDejun;
     }
 
-    public void setPapuci(boolean papuci) {
+    protected void setPapuci(boolean papuci) {
         this.papuci = papuci;
     }
 
-    public void setHalat(boolean halat) {
+    protected void setHalat(boolean halat) {
         this.halat = halat;
     }
 
-    public void setNumePacient(String numePacient) {
+    protected void setNumePacient(String numePacient) {
         this.numePacient = numePacient;
     }
 
