@@ -1,6 +1,6 @@
-package singleton.eager.main;
+package singleton.eager.imprimanta.main;
 
-import singleton.eager.clase.PrintManager;
+import singleton.eager.imprimanta.clase.PrintManager;
 
 public class Main {
     public static void main(String[] args) {

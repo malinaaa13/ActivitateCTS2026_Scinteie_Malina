@@ -1,4 +1,4 @@
-package singleton.eager.clase;
+package singleton.eager.imprimanta.clase;
 
 public class PrintManager {
     private String numeImprimanta;
