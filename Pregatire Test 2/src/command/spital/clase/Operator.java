@@ -1,4 +1,4 @@
-package command.clase;
+package command.spital.clase;
 
 import java.util.ArrayList;
 import java.util.List;

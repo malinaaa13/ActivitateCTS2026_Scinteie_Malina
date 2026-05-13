@@ -1,4 +1,4 @@
-package command.clase;
+package command.spital.clase;
 
 public class Tratare implements Command{
     private PersonalSpital asistenta;

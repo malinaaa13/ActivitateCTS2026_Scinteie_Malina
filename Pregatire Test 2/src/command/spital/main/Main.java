@@ -1,6 +1,6 @@
-package command.main;
+package command.spital.main;
 
-import command.clase.*;
+import command.spital.clase.*;
 
 public class Main {
     public static void main(String[] args) {
