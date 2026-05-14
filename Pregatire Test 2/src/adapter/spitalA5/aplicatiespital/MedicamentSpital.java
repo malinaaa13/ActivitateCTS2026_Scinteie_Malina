@@ -19,6 +19,7 @@ public class MedicamentSpital {
     }
 
     protected boolean prezintaReteta(){
+
         return true;
     }
 }

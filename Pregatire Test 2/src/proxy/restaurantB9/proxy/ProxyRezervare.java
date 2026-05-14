@@ -7,7 +7,7 @@ public class ProxyRezervare implements IRezervare {
 
     private IRezervare rezervare;
 
-    public ProxyRezervare(Rezervare rezervare) {
+    public ProxyRezervare(IRezervare rezervare) {
         this.rezervare = rezervare;
     }
 

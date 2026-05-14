@@ -12,7 +12,8 @@ public class AdapterSoftBar extends SoftFacturi {
 
 
     @Override
-    public void printeazaFactura() {
+    public void printeazaFactura()
+    {
         System.out.println(softBar.toString());
     }
 }

@@ -4,6 +4,7 @@ public class SoftFacturi {
     private int nrProduse;
 
     public SoftFacturi(int nrProduse) {
+
         this.nrProduse = nrProduse;
     }
 
